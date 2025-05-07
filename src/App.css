@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(7, 13, 97);
+}
+main{
+  margin: 2em;
+  border-radius: 10px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+.dice-container{
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 2em;
+  padding: 2em;
+  border-radius: 5px;
+}
+ .die{
+  
+  width: 50px;
+  height: 50px;
+  border: solid 1px gray;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: .5em;
+  font-weight: 800;
+  font-size: 1.5rem;
+  cursor: pointer;
+ }
+
+ .roll-btn{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: .5em 1em;
+  background-color:rgb(7, 13, 97);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
