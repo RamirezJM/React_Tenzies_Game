@@ -10,5 +10,5 @@ https://ramirezjm.github.io/React_Tenzies_Game/
 ![Static Badge](https://img.shields.io/badge/React-%2361DBFB)
 
 <div>
-  <img src="./public/screenshot.jpg" width=500>
+  <img src="./public/screenshot.jpeg" width=600>
 </div>
